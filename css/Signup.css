@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    background-image: url('../img/gray_jean\ img.png');
+}
+
+.container{
+    margin: 15px 25px;
+    border-top: 5px solid orangered;
+}
+
+header{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+} 
+
+.top_right{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.right_header{
+    flex-direction: column;
+    align-items: flex-end;
+    display: flex;
+}
+
+.links a{
+    padding: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.links a:not(icon):hover{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+.form{
+    color: white;
+    box-sizing: border-box;
+    padding: 12px 12px;
+    margin: 15px 200px;
+    justify-content: space-around;
+    border: 4px solid orangered;
+}
+
+.sign_up{
+    background-color: orangered;
+    text-align: center;
+    width: 165px;
+    color: white;
+    height: 40px;
+}
+
+label{
+    color: orangered;
+}
+
+input[type="number"], [type="text"]{
+    width: 50%;
+    padding: 10px 10px;
+}
+
+fieldset{
+    padding: 12px;
+}
+
+
+button{
+    background-color: orangered;
+    text-align: center;
+    width: 165px;
+    color: white;
+    height: 40px;
+}
+
+h1{
+    text-align: center;
+    color: orangered;
+}
+
+
