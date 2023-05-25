@@ -47,26 +47,27 @@ header {
     font-weight: bold;
 }
 
+.below_header{
+    background-image: url('../img/denis-degioanni-9wH624ALFQA-unsplash.jpg');
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
 .form_container{
     height: 350px;
     width: 400px;
     background-color: white;
     padding: 20px 30px; 
     margin-top: 5px;
-}
-
-.below_header{
-    background-image: url('../img/denis-degioanni-9wH624ALFQA-unsplash.jpg');
-    height: 400px;
-    display: flex;
-    align-items: center;
-    margin-top: 5px;
     margin-left: 20px;
 }
+
 
 .form_container > p{
     color: orangered;
     font-weight: 400;
+
 }
 
 .input_row{
@@ -82,7 +83,7 @@ header {
     padding: 8px 10px;
 }
 
-.input_row > label, .form_container > span{
+.input_row > label, .form_container > span, .input_row p > select{
     color: #a1a199;
     font-weight: 500;
 }
@@ -91,7 +92,7 @@ form button{
     background-color: orangered;
     color: #fff;
     border: 0;
-    outline: none;
+    outline: 0;
     font-weight: 500;
     padding: 15px 18px;
 }
