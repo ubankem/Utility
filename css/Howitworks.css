@@ -6,7 +6,8 @@
 
 html, body {
     height: 100vh;
-    background-image: url('../img/gray_jean\ img.png');
+    /* background-image: url('../img/gray_jean\ img.png'); */
+    background-color: white;
 }
 
 .container{
@@ -49,4 +50,42 @@ header{
 
 h1{
     text-align: left;
+}
+
+.Our__features{
+    background-color: #ffff;
+    padding: 40px 50px;
+    border-top: 2px solid #ffff;
+}
+
+.inner__features{
+    display: flex;
+}
+
+.feature__row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 75px;
+    margin: 10px 0 10px 0;
+}
+
+.feature__row .icon_holder{
+    margin-right: 10px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff !important;
+}
+
+.feature__row .content{
+    height: 80px;
+}
+
+.column{
+    width: 50%;
 }
